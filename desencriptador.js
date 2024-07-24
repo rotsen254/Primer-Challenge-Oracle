@@ -46,8 +46,9 @@ document.getElementById('Desencriptar').addEventListener('click', function(event
     document.getElementById('Copia').addEventListener('click', function(event) {
         event.preventDefault();
     
-        document.getElementById("input").innerText = decryptedData;
-    
+      
+        document.getElementById("input").value = decryptedData;
     });
+      
 });
 
