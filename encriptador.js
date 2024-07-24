@@ -45,7 +45,7 @@ document
       event.preventDefault();
   
     
-      document.getElementById("input").innerText = encryptedData;
+      document.getElementById("input").value = encryptedData;
   });
     
   });
